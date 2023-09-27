@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Complex Form</h2>
+    <fieldset>
+        <legend>Personal Information</legend>
+
+        <label for="NAME">Name :</label>
+        <input type="text" name="NAME" id="NAME">
+
+        <label for="EMAIL">Email :</label>
+        <input type="email" name="EMAIL" id="EMAIL">
+
+        <label for="PHONE">Phone : </label>
+        <input type="tel" name="PHONE" id="PHONE">
+
+        <label for="DOB">Date Of Birth :</label>
+        <input type="date" name="DOB" id="DOB">
+
+        <label for="GENDER">Gender :</label>
+
+        <label for="MALE">Male</label>
+        <input type="radio" name="GENDER" id="MALE">
+
+        <label for="FEMALE">Female</label>
+        <input type="radio" name="GENDER" id="FEMALE">
+
+        <span> Country : </span>
+        <select name="COUNTRY" id="COUNTRY">
+            <option value="INDIA">INDIA</option>
+            <option value="JAPAN">JAPAN</option>
+            <option value="USA">USA</option>
+            <option value="RUSSIA">RUSSIA</option>
+            <option value="KOREA">KOREA</option>
+        </select>
+    </fieldset> <br>
+
+    <fieldset>
+        <legend>Address :  
+            <label for="STREET">Street</label>
+            <input type="text" name="STREET" id="STREET">
+
+            <label for="CITY">City</label>
+            <input type="text" name="CITY" id="CITY">
+
+            <label for="STATE">State</label>
+            <input type="text" name="STATE" id="STATE">
+
+            <label for="ZIP CODE">Zip Code</label>
+            <input type="tel" name="ZIP CODE" id="ZIP CODE" form="[0-9]{3}-[0-9]{3}">
+        </legend>
+    </fieldset>
+
+    <section> Name : </section>
+    <details>Madhav karavadiya</details>
+    <button>Submit</button>
+    
+    <fieldset>
+        <legend>Other Information</legend>
+
+        <span>Comments : </span>
+        <textarea name="COMMENTS" id="COMMENTS" cols="30" rows="10"></textarea>
+        <label for="TERM&CODITION">I am agree with all the term and condition</label>
+        <input type="checkbox" name="TICK" id="TICk">
+    </fieldset>
+
+</body>
+</html>

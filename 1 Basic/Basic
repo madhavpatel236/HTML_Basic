@@ -1,0 +1,10 @@
+- HTML: HyperText Markup Language
+
+- HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript).
+
+- in HTML we all the code write into the <html>.....</html> element
+- <html>,<head>... is called tages but of we write <body>...content...</body> then it is called element.
+- there are two types of tages (i) which has no need to close , for example <html>
+                                (ii) which has requir to close , for example <html> ...... </html>
+
+- for the cpmment this is the basic structure : <!-- This is a comment -->
